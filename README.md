@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shopee Storefront
 
 A polished shopping cart frontend built with React, Redux Toolkit, React Router, Parcel, and Tailwind CSS 4. The application fetches products from the Fake Store API, displays them in a responsive storefront layout, and provides a cart workflow with quantity controls, removal actions, loading states, and error handling.
@@ -80,25 +81,101 @@ The app is organized around reusable UI components and a Redux store with featur
 - npm
 
 ### Installation
+=======
+# 🛍️ Redux Product Store
+
+A modern and responsive e-commerce frontend built using React, Redux Toolkit, and Tailwind CSS. The application fetches product data from a public API and provides a complete cart workflow with real-time state management.
+
+🔗 **Live Demo:** https://product-store-78754.netlify.app/
+
+---
+
+## 🚀 Features
+
+* 📦 Fetch products from API
+* 🛒 Add to cart functionality
+* ➕ Increase / decrease quantity
+* ❌ Remove items from cart
+* 💰 Dynamic cart total calculation
+* 🔄 Loading & error handling
+* 📱 Fully responsive UI
+* 🔀 Client-side routing (Home & Cart pages)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+* **Frontend:** React 18
+* **State Management:** Redux Toolkit
+* **Routing:** React Router DOM
+* **Styling:** Tailwind CSS
+* **Bundler:** Parcel
+* **API:** Fake Store API
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── assets/
+├── components/
+│   ├── Header.js
+│   ├── Product.js
+│   └── CartItem.js
+├── pages/
+│   ├── Home.js
+│   └── Cart.js
+├── store/
+│   ├── slices/
+│   └── middleware/
+├── App.js
+├── main.js
+├── styles.css
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/redux-product-store.git
+cd redux-product-store
+```
+
+### 2. Install dependencies
+>>>>>>> d3bb218 (Add README.md with project overview, features, and setup instructions)
 
 ```bash
 npm install
 ```
 
+<<<<<<< HEAD
 ### Run in development
+=======
+### 3. Run development server
+>>>>>>> d3bb218 (Add README.md with project overview, features, and setup instructions)
 
 ```bash
 npm run dev
 ```
 
+<<<<<<< HEAD
 Parcel will start a local development server and serve the app from `index.html`.
 
 ### Create a production build
+=======
+### 4. Build for production
+>>>>>>> d3bb218 (Add README.md with project overview, features, and setup instructions)
 
 ```bash
 npm run build
 ```
 
+<<<<<<< HEAD
 The optimized build output is generated in the `dist/` directory.
 
 ## Available Scripts
@@ -156,3 +233,54 @@ Because the application uses a public demo API, availability and response data m
 ## License
 
 This project is available under the ISC license.
+=======
+---
+
+## 🔄 How It Works
+
+### Product Flow
+
+* Fetches products from API on app load
+* Stores data in Redux store
+* Displays products in a grid layout
+
+### Cart Flow
+
+* Cart state managed via Redux Toolkit
+* Supports add, remove, and quantity update
+* Calculates total price dynamically
+
+---
+
+## ⚡ Future Improvements
+
+* 🔍 Search and filtering
+* 📄 Product detail page
+* ❤️ Wishlist functionality
+* 🌙 Dark mode
+* 💾 Cart persistence (localStorage)
+* 🔐 Authentication system
+
+---
+
+## 📌 Key Highlights
+
+* Clean and scalable Redux architecture
+* Separation of concerns using slices
+* Reusable UI components
+* Production-ready folder structure
+
+---
+
+## 📄 License
+
+This project is licensed under the ISC License.
+
+---
+
+## 🙌 Author
+
+**Ashish Kumar**
+
+---
+>>>>>>> d3bb218 (Add README.md with project overview, features, and setup instructions)
