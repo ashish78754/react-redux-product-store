@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #fdf8f2;
+  --color-brand-sand: #efe4d7;
+  --color-brand-orange: #f2692d;
+  --color-brand-orange-dark: #cf5320;
+  --color-brand-teal: #1d6b73;
+
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+}
